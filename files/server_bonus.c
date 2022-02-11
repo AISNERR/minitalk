@@ -29,7 +29,7 @@ static void	itsworking(int signal, siginfo_t *inf, void *text)
 	count++;
 	(void)text;
 	if (signal == SIGINT)
-		error_message("\n\033[0;32m~*'.+Process finished with exit code 0+.'*~\n", 0);
+		error_message("\n\033[0;32m~*'.+Process finished'\n", 0);
 	else
 		symbol = (symbol << 1) | (signal == SIGUSR1);
 	if (!(count % 8) && count)

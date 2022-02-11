@@ -6,7 +6,7 @@
 /*   By: aisner <aisner@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/20 05:47:08 by aisner            #+#    #+#             */
-/*   Updated: 2022/01/20 07:14:18 by aisner           ###   ########.fr       */
+/*   Updated: 2022/02/11 17:51:47 by aisner           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@
 # include "../libft/libft.h"
 # include <stdio.h>
 
-void error_message(char *message, int number);
-int validation(char *pid);
-void byte_trans(int pid, char byte);
+void	error_message(char *message, int number);
+void	byte_trans(int pid, char byte);
+int     validation(char *pid);
 
-# endif
+#endif

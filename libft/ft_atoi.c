@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sgaladri <sgaladri@student.42.fr>          +#+  +:+       +#+        */
+/*   By: aisner <aisner@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/20 22:16:36 by sgaladri          #+#    #+#             */
-/*   Updated: 2021/10/21 03:52:00 by sgaladri         ###   ########.fr       */
+/*   Updated: 2022/02/11 17:37:41 by aisner           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-long long int	ft_negative(const char *str, long long int	neg, int i)
+long long int	ft_negative(const char *str, long long int neg, int i)
 {
 	neg = 0;
 	if (str[i] == '-' || str[i] == '+')
